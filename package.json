@@ -1,22 +1,32 @@
 {
   "name": "my-portfolio",
   "version": "1.0.0",
-  "description": "It uses AWS and ReactJS",
+  "description": "Experimentation with React and deployment to AWS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack":"webpack",
+    "webpack-watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alernerdev/my-portfolio.git"
   },
-  "author": "",
+  "author": "Alex Lerner <alernerdev@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alernerdev/my-portfolio/issues"
   },
   "homepage": "https://github.com/alernerdev/my-portfolio#readme",
   "devDependencies": {
-    "local-web-server": "^2.3.0"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "local-web-server": "^2.3.0",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
