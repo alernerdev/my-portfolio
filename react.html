@@ -51,7 +51,7 @@
 			buttonClicked(evt) {
 				var name = this.refs.nameInput.value;
 				console.log("it was clicked");
-				this.setState = ({
+				this.setState({
 					message: {
 						type: name ? "success" : "error",
 						body: name ? "welcome to react " + name : "please eneter name"
@@ -61,7 +61,9 @@
 
             render() {
 				var msg = this.state.message;
+                console.log("going to render using " + msg.type + " " + msg.body);
 
+                // this needs to return a single outer tag
                 return (
                     <div>
 						<label>Name: <input ref="nameInput" type="text"/></label>
@@ -75,8 +77,12 @@
 
 		class MessageBox extends React.Component {
 			render() {
+                var style = "messageBox " + (this.props.type || "hidden");
+                console.log(`styling using "${style}" style`);
+
+                // so props are set as attributes on the directive
 				return (
-					<div className={"messageBox " + (this.props.type || "hidden")}>
+					<div className={style}>
 						{this.props.message}
 					</div>
 				)
