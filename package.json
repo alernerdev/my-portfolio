@@ -4,7 +4,7 @@
   "description": "Experimentation with React and deployment to AWS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "webpack": "webpack",
     "webpack-watch": "webpack --watch"
   },
@@ -20,10 +20,15 @@
   "homepage": "https://github.com/alernerdev/my-portfolio#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-jest": "^22.0.4",
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.0.4",
     "local-web-server": "^2.3.0",
+    "react-test-renderer": "^16.2.0",
     "webpack": "^3.10.0"
   },
   "dependencies": {
