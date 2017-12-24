@@ -5,6 +5,8 @@ import ExampleWork from './example-work.jsx';
 const myWork = [
 	{
 		title: "Work Example",
+		href: "https://example.com",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iure totam sequi accusantium voluptates, libero tempore aspernatur eligendi quas sapiente consectetur eos itaque voluptatum vitae id non fugit neque. Vel?",
 		image: {
 			desc: "example screen shot of a project involving",
 			src: "images/example1.png",
@@ -13,6 +15,8 @@ const myWork = [
 	},
 	{
 		title: "Portfolio Boilerplate",
+		href: "https://example.com",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iure totam sequi accusantium voluptates, libero tempore aspernatur eligendi quas sapiente consectetur eos itaque voluptatum vitae id non fugit neque. Vel?",
 		image: {
 			desc: "A serverless Portfolio",
 			src: "images/example2.png",
@@ -21,6 +25,8 @@ const myWork = [
 	},
 	{
 		title: "Work Example",
+		href: "https://example.com",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iure totam sequi accusantium voluptates, libero tempore aspernatur eligendi quas sapiente consectetur eos itaque voluptatum vitae id non fugit neque. Vel?",
 		image: {
 			desc: "example screenshot of a project involving cats",
 			src: "images/example3.png",
